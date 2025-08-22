@@ -2,6 +2,7 @@
 
 ### 1️⃣ Basic — Sync, Microtask, Timeout, Immediate, I/O
 
+```javascript
 const fs = require("fs");
 
 console.log("A - sync");
