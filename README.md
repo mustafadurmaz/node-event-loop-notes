@@ -39,8 +39,8 @@ fs.readFile(__filename, () => {
 
 ### Beklenen çıktı:
 
-immediate in IO
-timeout in IO
+- immediate in IO
+- timeout in IO
 
 ### 3️⃣ CPU-bound Bloklama
 
@@ -55,9 +55,9 @@ console.log("end")
 
 ### Beklenen çıktı:
 
-start
-end
-timeout after block
+- start
+- end
+- timeout after block
 
 ### 4️⃣ HTTP İsteği (I/O Yoğun)
 
@@ -76,9 +76,9 @@ console.log("after request");
 
 ### Beklenen çıktı:
 
-before request
-after request
-http request done
+- before request
+- after request
+- http request done
 
 ### 5️⃣ Veritabanı Simülasyonu (Async I/O)
 
@@ -96,9 +96,9 @@ console.log("doing other work...");
 
 ### Beklenen çıktı:
 
-querying db...
-doing other work...
-db result: Result of SELECT * FROM users
+- querying db...
+- doing other work...
+- db result: Result of SELECT * FROM users
 
 ### 6️⃣ CPU + I/O Karma Senaryo
 
@@ -122,9 +122,9 @@ console.log("end");
 
 ### Beklenen çıktı:
 
-start
-end
-nextTick
-promise
-timeout
-I/O done
+- start
+- end
+- nextTick
+- promise
+- timeout
+- I/O done
