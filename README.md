@@ -20,13 +20,13 @@ console.log("B - sync");
 
 ### Beklenen çıktı:
 
-A - sync
-B - sync
-nextTick
-promise
-timeout 0
-immediate
-readFile done
+-A - sync
+-B - sync
+-nextTick
+-promise
+-timeout 0
+-immediate
+-readFile done
 
 ### 2️⃣ I/O İçinden setTimeout vs setImmediate
 
